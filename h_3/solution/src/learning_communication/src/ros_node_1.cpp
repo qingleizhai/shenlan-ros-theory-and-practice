@@ -1,5 +1,5 @@
 /**
- * 该例程将发布chatter话题，消息类型String
+ * 该例程将发布/turtle1/cmd_vel话题，消息类型geometry_msgs::Twist
  */
  
 #include <sstream>
@@ -33,7 +33,7 @@ int main(int argc, char **argv)
     int count = 0;
     while (ros::ok())
     {
-        // 初始化std_msgs::String类型的消息
+        // 初始化sgeometry_msgs::Twist类型的消息
         geometry_msgs::Twist msg;
         msg.linear.x = 0.5; 
         msg.angular.z = 0.5; 

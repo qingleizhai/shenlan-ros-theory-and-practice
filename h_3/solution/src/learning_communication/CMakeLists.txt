@@ -69,6 +69,12 @@ find_package(catkin REQUIRED COMPONENTS
 #   Action2.action
 # )
 
+
+add_service_files(
+  FILES
+  SpawnTurtleSrv.srv
+)
+
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
@@ -159,6 +165,13 @@ include_directories(
 
 add_executable(ros_node_1 src/ros_node_1.cpp)
 target_link_libraries(ros_node_1 ${catkin_LIBRARIES})
+
+add_executable(ros_node_2 src/ros_node_2.cpp)
+target_link_libraries(ros_node_2 ${catkin_LIBRARIES})
+
+add_executable(ros_node_3 src/ros_node_3.cpp)
+target_link_libraries(ros_node_3 ${catkin_LIBRARIES})
+
 
 #############
 ## Install ##
