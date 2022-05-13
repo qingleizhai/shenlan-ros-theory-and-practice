@@ -1,0 +1,11 @@
+string new_turtle_name  #新产生的海龟name
+string controlled_turtle_name #被控制的海龟name
+
+uint8 status # 0 stop 1 start
+
+geometry_msgs/Vector3 linear
+
+geometry_msgs/Vector3 angular
+
+---
+string result

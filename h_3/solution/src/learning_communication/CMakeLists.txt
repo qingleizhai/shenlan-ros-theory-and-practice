@@ -72,7 +72,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_service_files(
   FILES
-  SpawnTurtleSrv.srv
+  CommandTurtleSrv.srv
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -171,6 +171,7 @@ target_link_libraries(ros_node_2 ${catkin_LIBRARIES})
 
 add_executable(ros_node_3 src/ros_node_3.cpp)
 target_link_libraries(ros_node_3 ${catkin_LIBRARIES})
+add_dependencies(ros_node_3 ${PROJECT_NAME}_gencpp)
 
 
 #############
