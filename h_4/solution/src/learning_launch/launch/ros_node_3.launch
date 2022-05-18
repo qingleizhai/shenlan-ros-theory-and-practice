@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" />
+    <node pkg="learning_launch" type="ros_node_3" name="ros_node_3" output="screen" /> 
+</launch>
+
+
