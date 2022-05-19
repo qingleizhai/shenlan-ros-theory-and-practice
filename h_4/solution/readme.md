@@ -31,3 +31,5 @@
                                 angular: {x: 0.0, y: 0.0, z: 0.5}"  让指定停止海龟圆周运动
                                 
      注：status 表示海龟运动状态，0 是停止运动，1是开始圆周运动.
+ 2、作业2：
+    运行结果：https://github.com/qingleizhai/shenlan-ros-theory-and-practice-homework/blob/main/h_4/solution/hw2.mp4
