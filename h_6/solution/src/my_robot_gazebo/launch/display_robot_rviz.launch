@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- 启动 rviz -->
+  <param name="use_gui" value="true" />
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher_rviz" output="screen" />
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher_rviz" output="screen" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot_gazebo)/config/my_robot_urdf.rviz" required="true" />
+</launch> 
