@@ -7,7 +7,7 @@
       作业1 ：
       roslaunch my_robot_gazebo display_robot_gazebo_run.launch
       roslaunch mbot_teleop mbot_teleop.launch
-      作业3:
+      作业2:
       roslaunch my_robot_gazebo display_robot_gazebo_camera_lidar.launch
       roslaunch my_robot_gazebo display_robot_rviz.launch
       rostopic pub -r 10 /cmd_vel geometry_msgs/Twist "linear:
